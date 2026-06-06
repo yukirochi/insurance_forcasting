@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw_data  # This is the alias/nickname you use in your SQL
+    database: insurance_db    # The actual database name in Snowflake
+    schema: raw   # The actual schema name in Snowflake
+    
+    tables:
+      - name: insurance_raw      # The actual table name in Snowflake

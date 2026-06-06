@@ -1,0 +1,7 @@
+.venv
+insurance_dbt/.env
+insurance_dbt/profiles.yml
+insurance_dbt/.user.yml
+insurance_dbt/logs/
+insurance_dbt/target/
+logs/
