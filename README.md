@@ -402,11 +402,3 @@ Please ensure all dbt tests pass and model outputs are validated before submitti
 dbt test --target dev
 python insurance_model/model.py
 ```
-
-## License
-
-[Add your license information here]
-
-## Contact
-
-[Add contact information here]
