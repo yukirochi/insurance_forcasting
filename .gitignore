@@ -5,3 +5,5 @@ insurance_dbt/.user.yml
 insurance_dbt/logs/
 insurance_dbt/target/
 logs/
+insurance_model/.env
+insurance_model/__pycache__/

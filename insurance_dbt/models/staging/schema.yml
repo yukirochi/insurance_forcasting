@@ -1,0 +1,59 @@
+models:
+  - name: stg_data
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: age
+        data_type: int
+  
+      - name: sex
+        data_type: int
+        tests:
+          - accepted_values:
+              arguments:
+                values: [0, 1]
+
+      - name: bmi
+        data_type: float
+
+      - name: children
+        data_type: int
+
+      - name: smoker
+        data_type: int
+        tests:
+          - accepted_values:
+              arguments:
+                values: [0, 1]
+
+      - name: northeast
+        data_type: int
+        tests:
+          - accepted_values:
+              arguments:
+                values: [0, 1]
+
+      - name: northwest
+        data_type: int
+        tests:
+          - accepted_values:
+              arguments:
+                values: [0, 1]
+
+      - name: southeast
+        data_type: int
+        tests:
+          - accepted_values:
+              arguments:
+                values: [0, 1]
+
+      - name: southwest
+        data_type: int
+        tests:
+          - accepted_values:
+              arguments:
+                values: [0, 1]
+
+      - name: charges
+        data_type: float
